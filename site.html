@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Розклад занять</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Темна тема */
+    body.dark-mode {
+      background-color: #222;
+      color: #fff;
+    }
+
+    body.dark-mode header,
+    body.dark-mode th {
+      background-color: #111;
+    }
+
+    body.dark-mode tr:nth-child(even) {
+      background-color: #333;
+    }
+
+    body.dark-mode footer {
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Розклад занять</h1>
+  </header>
+
+  <main>
+    <h2>Понеділок</h2>
+    <table>
+      <tr>
+        <th>Пара</th>
+        <th>Початок</th>
+        <th>Кінець</th>
+        <th>Предмет</th>
+        <th>Кабінет</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:30</td>
+        <td>09:50</td>
+        <td>Фізичне Виховання</td>
+        <td>с.з</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>10:00</td>
+        <td>11:20</td>
+        <td>Інформаційно-комунікаційні технології</td>
+        <td>43,44</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>11:45</td>
+        <td>13:05</td>
+        <td>Основи Економічної теорії</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>13:30</td>
+        <td>14:50</td>
+        <td>Правознавство / Філософія</td>
+        <td>40</td>
+      </tr>
+    </table>
+
+    <h2>Вівторок</h2>
+    <table>
+      <tr>
+        <th>Пара</th>
+        <th>Початок</th>
+        <th>Кінець</th>
+        <th>Предмет</th>
+        <th>Кабінет</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:30</td>
+        <td>09:50</td>
+        <td>Алгоритмізація та програмування(1)</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>10:00</td>
+        <td>11:20</td>
+        <td>Основи Електротехніки та електроніки</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>11:45</td>
+        <td>13:05</td>
+        <td>Іноземна мова</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>13:30</td>
+        <td>14:50</td>
+        <td>Основи екології</td>
+        <td>40</td>
+      </tr>
+    </table>
+
+    <h2>Середа</h2>
+    <table>
+      <tr>
+        <th>Пара</th>
+        <th>Початок</th>
+        <th>Кінець</th>
+        <th>Предмет</th>
+        <th>Кабінет</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:30</td>
+        <td>09:50</td>
+        <td>Фізичне виховання / Вікно</td>
+        <td>с.з</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>10:00</td>
+        <td>11:20</td>
+        <td>Лінійна Алгебра та геометрія</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>11:45</td>
+        <td>13:05</td>
+        <td>Практикум з програмування</td>
+        <td>41,42</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>13:30</td>
+        <td>14:50</td>
+        <td>Українська література</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>15:00</td>
+        <td>16:20</td>
+        <td>Іноземна мова(нім)</td>
+        <td></td>
+      </tr>
+    </table>
+
+    <h2>Четвер</h2>
+    <table>
+      <tr>
+        <th>Пара</th>
+        <th>Початок</th>
+        <th>Кінець</th>
+        <th>Предмет</th>
+        <th>Кабінет</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:30/td>
+        <td>09:50</td>
+        <td>Філософія</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>10:00</td>
+        <td>11:20</td>
+        <td>Українська мова</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>11:45</td>
+        <td>13:05</td>
+        <td>Іноземна мова</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>14:30</td>
+        <td>15:50</td>
+        <td>Захист України</td>
+        <td>ШДП</td>
+      </tr>
+    </table>
+
+    <h2>Пʼятниця</h2>
+    <table>
+      <tr>
+        <th>Пара</th>
+        <th>Початок</th>
+        <th>Кінець</th>
+        <th>Предмет</th>
+        <th>Кабінет</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:30</td>
+        <td>09:50</td>
+        <td>Лінійна алгебра та геометрія / Алгоритмізація та програмування</td>
+        <td>43</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>10:00</td>
+        <td>11:20</td>
+        <td>Історія України</td>
+        <td>40</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>11:45</td>
+        <td>13:05</td>
+        <td>Практикум з програмування</td>
+        <td>41,42</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>13:30</td>
+        <td>14:50</td>
+        <td>Алгоритмізація та програмування (2)</td>
+        <td>43</td>
+      </tr>
+    </table>
+  </main>
+
+  <footer>
+    &copy; 2023 Розклад занять. Усі права захищені.
+  </footer>
+</body>
+</html>
